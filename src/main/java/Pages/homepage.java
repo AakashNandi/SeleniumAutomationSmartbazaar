@@ -23,10 +23,10 @@ public class homepage extends basepage {
         driver.get(url);
     }
 
-    public void closepopup(){
-        waitutil.waitForClickable(popup);
-        popup.click();
-    }
+//    public void closepopup(){
+//       // waitutil.waitForClickable(popup);
+//        popup.click();
+//    }
 
     public void search(String item){
         waitutil.waitForVisible(searchBox);

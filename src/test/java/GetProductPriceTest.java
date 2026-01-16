@@ -12,7 +12,7 @@ public class GetProductPriceTest extends basetest{
         productspage pp=new productspage();
 
         hp.opensite("https://www.smartbazaar.co.uk/");
-        hp.closepopup();;
+      //  hp.closepopup();
         hp.search(searchKey);
 
         pp.selectProduct(productName);
